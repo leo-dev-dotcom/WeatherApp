@@ -1,0 +1,77 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(47,150,163),rgb(48,62,143));
+font-family: sans-serif;
+color: white;
+} */
+/* .temperature,
+.location{
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.temperature{
+    flex-direction: column;
+}
+.degree-section{
+   display: flex;
+   align-items: center; 
+   cursor: pointer;
+}
+
+.degree-section span{
+    margin: 10px;
+    font-size: 30px;
+}
+
+.degree-section h2{
+    font-size: 40px;
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+html,
+body {
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px
+}
+
+body {
+    background-color: #a5a5b1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(47,150,163),rgb(130, 137, 177));
+ color: white;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 25px;
+    color: #6f707d;
+    font-family: 'Marcellus', serif
+}
+
+.degree-section{
+    
+    cursor: pointer;
+ }
